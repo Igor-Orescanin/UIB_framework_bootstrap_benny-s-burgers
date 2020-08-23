@@ -1,0 +1,39 @@
+// This is where you can import other stylesheets or write your scss code
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+$theme-colors:( primary:#7A44FE );
+$headings-font-family: 'Love Ya Like A Sister', cursive;
+$enable-responsive-font-sizes: true;
+// ANOTHER WAY TO MAKE FONT BIGGER AND RESPONSIVE
+// $h1-font-size:  calc(100% + 4vw + 4vh);
+$enable-rounded: false;
+$lead-font-size:2rem;
+$font-size-base: 1.8rem;
+
+
+
+.hero {
+    height: 70vh;
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom;
+}
+
+.navbar  {
+    background-color: black;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+.form-section {
+    margin:1rem auto ;
+}
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
